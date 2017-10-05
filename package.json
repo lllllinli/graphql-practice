@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/server/index.js",
+    "dev": "nodemon ./src/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/lllllinli/graphql-practice#readme",
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "nodemon": "^1.12.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
